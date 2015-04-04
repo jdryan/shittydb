@@ -1,5 +1,3 @@
-import subprocess
-
 def set(key, val):
     with open(key, 'w') as f:
         f.write(val)
